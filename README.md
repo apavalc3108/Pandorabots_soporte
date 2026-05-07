@@ -58,6 +58,7 @@ El sistema utiliza la sintaxis estándar de **AIML 2.0**. Un ejemplo de su lógi
 ---
 
 ## 📂 Estructura del proyecto
+```
 pavonadriansoporte/
 │
 ├── 📂 aiml/
@@ -78,7 +79,7 @@ pavonadriansoporte/
 │   └── gender.substitution
 │
 └── pavonadriansoporte.properties
-
+```
 ---
 
 ## 💬 Demo de conversación
