@@ -46,66 +46,46 @@ Es un proyecto breve y directo: no busca ser un producto comercial, sino **una p
 
 ## 🧠 Funcionamiento del chatbot
 
-El chatbot se basa en categorías AIML clásicas:
+El sistema utiliza la sintaxis estándar de **AIML 2.0**. Un ejemplo de su lógica interna es:
 
 ```xml
 <category>
     <pattern>HOLA</pattern>
-    <template>Hola Bienvenido a Hapkido IHA Store</template>
+    <template>Hola, bienvenido a Hapkido IHA Store.</template>
 </category>
-Cada archivo .aiml agrupa respuestas relacionadas con una funcionalidad concreta.
 
-📂 Estructura del proyecto
-Plaintext
-pavonadriansoporte/
-│
-├── saludos.aiml              # Bienvenida y captura del nombre
-├── productos.aiml            # Muestra el catálogo general
-├── producto1.aiml            # Detalles de Guantes de Boxeo
-├── producto2.aiml            # Detalles de Dobok Hapkido Master
-├── producto3.aiml            # Detalles de los Nunchakus
-├── horario.aiml              # Información del horario de atención
-├── devoluciones.aiml         # Política de devoluciones y reembolsos
-├── respuestas.aiml           # Respuestas de cortesía y confirmaciones
-├── defecto.aiml              # Respuestas por defecto si no se entiende
-├── udc.aiml                  # Ultimate Default Category para fallback
-│
-├── normal.substitution       # Normaliza el texto de entrada
-├── denormal.substitution     # Revierte normalizaciones
-├── person.substitution       # Convierte referencias personales
-├── person2.substitution      # Conversión extra de pronombres
-├── gender.substitution       # Conversión de género
-│
-└── pavonadriansoporte.properties   # Configuración del bot
-💬 Ejemplos de conversación
-Usuario: Hola
+📂 Estructura del ProyectoBashpavonadriansoporte/
+├── 📂 aiml/
+│   ├── saludos.aiml       # Bienvenida y captura del nombre
+│   ├── productos.aiml     # Catálogo general
+│   ├── producto1.aiml     # Guantes de Boxeo
+│   ├── producto2.aiml     # Dobok Hapkido Master
+│   ├── producto3.aiml     # Nunchakus
+│   ├── horario.aiml       # Horarios de atención
+│   ├── devoluciones.aiml  # Políticas de reembolso
+│   ├── respuestas.aiml    # Cortesía y confirmaciones
+│   ├── defecto.aiml       # Fallback de errores
+│   └── udc.aiml           # Ultimate Default Category
+├── 📂 config/
+│   ├── normal.substitution
+│   ├── person.substitution
+│   └── gender.substitution
+└── pavonadriansoporte.properties
+---
+💬 Demo de ConversaciónUsuarioBot (Hapkido IHA Store)
+Hola"Hola, bienvenido. ¿Cuál es tu nombre?"Adrián"
+Encantado Adrián, ¿en qué puedo ayudarte?"Ver productos"
+Tenemos: Dobok Master, Guantes ProFight y Nunchakus."Guantes"
+Los guantes ProFight cuestan 36€ y son de alta resistencia.
+---
 
-Bot: Hola Bienvenido a Hapkido IHA Store. ¿Cuál es tu nombre?
+###💡 Próximos Pasos y Mejoras
+[ ] E-commerce: Integrar un sistema de pedidos real.
+[ ] Persistencia: Conexión a base de datos externa.
+[ ] Frontend: Crear una interfaz web con HTML/CSS personalizada.
+[ ] Multilingüe: Traducción dinámica a otros idiomas.👨‍💻 
+---
 
-Usuario: Adrián
-
-Bot: Encantado Adrián, ¿en qué puedo ayudarte?
-
-Usuario: Ver productos
-
-Bot: Estos son nuestros productos disponibles:
-
-Dobok Hapkido Master
-
-Guantes de Boxeo ProFight
-
-Nunchaku tradicional
-
-💡 Posibles mejoras
-Ampliar el catálogo con más productos.
-
-Conectar el bot a una base de datos real.
-
-Integrar un sistema de pedidos básico.
-
-Darle una interfaz web con HTML/JS.
-
-👨‍💻 Autor
-Adrián Pavón
-
+##👨‍💻 Autor
+Adrián Pavón Alcón
 Primer proyecto en Pandorabots, desarrollado como práctica de clase acotada para comprender los fundamentos de AIML 2.0.
