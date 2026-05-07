@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>*</pattern>
+	    <template>
+	    <random>
+	        <li>Lo siento, no he entendido tu pregunta</li>
+	        <li>Podrias escribir la pregunta de nuevo</li>
+	        <li>No tengo esa información, ¿Puedes preguntar de otra manera ?</li>
+	    </random>
+	    </template>
+	</category>
+</aiml>

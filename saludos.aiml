@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+	    <pattern>Hola</pattern>
+	    <template>Hola  Bienvenido a <b>Hapkido IHA Store</b>Tu mejor tienda especializada en implementos artes marciales.
+        <br/>¿Cómo te llamas?
+        </template>
+	</category>
+	<category>
+	    <pattern>Mi nombre es *</pattern>
+	    <template>
+	        Mucho gusto tenerle por aqui, <set name="nombre"><star/></set>.
+	        ¿En qué puedo ayudarte hoy? Puedo informarte sobre nuestros doboks, armas o implementos.
+	    </template>
+	</category>
+</aiml>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>^ DEVOLUCION</pattern>
+	    <template>
+	        <b>Aceptamos devoluciones dentro de los 30 días posteriores a la compra.</b>
+            <br/>El producto debe estar sin usar y en su embalaje original.
+            <br/>Los gastos de envío no son reembolsables.
+	    </template>
+	</category>
+</aiml>

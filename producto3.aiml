@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>NUNCHAKU</pattern>
+	    <template>
+	    <b>Los nunchakus tradicionales</b> cuestan <b>25€</b>
+        <br/>Fabricados en madera con cadena metálica.
+        <br/>Disponibilidad: Bajo pedido
+	    </template>
+	</category>
+</aiml>

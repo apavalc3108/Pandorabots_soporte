@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>Dobok Hapkido master</pattern>
+	    <template>
+	   <b>El dobok de Hapkido de maestro</b> tiene un precio de <b>60€</b>
+        <br/>Algodón resistente,bordado con rombos negros, apto para competición.
+        <br>Elige la talla mas adecuada:S,M,L,XL</br>
+        <br/>Disponibilidad:<b> En stock </b>
+	    </template>
+	</category>
+</aiml>

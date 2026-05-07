@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>VER PRODUCTOS</pattern>
+    <template>
+        <b> CATÁLOGO DE PRODUCTOS</b>
+        <br/> Dobok Hapkido master
+        <br/> Guantes de Boxeo
+        <br/> Nunchaku
+        <br/><br/>
+        Escribe el nombre del producto para más información.
+    </template>
+</category>
+</aiml>

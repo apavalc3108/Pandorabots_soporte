@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>GRACIAS</pattern>
+    <template>
+        ¡De nada, <get name="nombre"/>!  
+        Si necesitas algo más sobre artes marciales, aquí estaré para ayudarte en todo lo que pueda y en todo lo que necesites.
+    </template>
+</category>
+</aiml>

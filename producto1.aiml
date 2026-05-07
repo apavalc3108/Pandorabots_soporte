@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>Guantes de Boxeo</pattern>
+        <template>
+              <b>Los guantes de boxeo ProFight</b> cuestan <b>36€</b>
+             <br/>Fabricados en cuero sintético, ideales para entrenamiento.
+             <br/>Disponibilidad:
+             <condition>
+               <li value="si">En stock</li>
+                <li>No disponibles actualmente</li>
+            </condition>
+        </template>
+    </category>
+</aiml>

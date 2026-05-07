@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>Horario de apertura</pattern>
+    <template>
+        Nuestro horario de atención al cliente es:
+        <br/> Lunes a viernes: 9:00 a 18:00
+        <br/> Sábados: 10:00 a 14:00
+    </template>
+</category>
+</aiml>
