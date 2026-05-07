@@ -44,30 +44,55 @@ Es un proyecto breve y directo: no busca ser un producto comercial, sino **una p
 
 ---
 
-## 🧠 Funcionamiento del chatbot
+🧠 Funcionamiento del chatbot
+El sistema utiliza la sintaxis estándar de AIML 2.0. Un ejemplo de su lógica interna es:
 
-El sistema utiliza la sintaxis estándar de **AIML 2.0**. Un ejemplo de su lógica interna es:
-
-```xml
+xml
 <category>
     <pattern>HOLA</pattern>
     <template>Hola, bienvenido a Hapkido IHA Store.</template>
 </category>
-📂 Estructura del ProyectoBashpavonadriansoporte/
+📂 Estructura del proyecto
+text
+pavonadriansoporte/
+│
 ├── 📂 aiml/
-│   ├── saludos.aiml       # Bienvenida y captura del nombre
-│   ├── productos.aiml     # Catálogo general
-│   ├── producto1.aiml     # Guantes de Boxeo
-│   ├── producto2.aiml     # Dobok Hapkido Master
-│   ├── producto3.aiml     # Nunchakus
-│   ├── horario.aiml       # Horarios de atención
-│   ├── devoluciones.aiml  # Políticas de reembolso
-│   ├── respuestas.aiml    # Cortesía y confirmaciones
-│   ├── defecto.aiml       # Fallback de errores
-│   └── udc.aiml           # Ultimate Default Category
+│   ├── saludos.aiml          # Bienvenida y captura del nombre
+│   ├── productos.aiml        # Catálogo general
+│   ├── producto1.aiml        # Guantes de Boxeo
+│   ├── producto2.aiml        # Dobok Hapkido Master
+│   ├── producto3.aiml        # Nunchakus
+│   ├── horario.aiml          # Horarios de atención
+│   ├── devoluciones.aiml     # Políticas de reembolso
+│   ├── respuestas.aiml       # Cortesía y confirmaciones
+│   ├── defecto.aiml          # Fallback de errores
+│   └── udc.aiml              # Ultimate Default Category
+│
 ├── 📂 config/
 │   ├── normal.substitution
 │   ├── person.substitution
 │   └── gender.substitution
+│
 └── pavonadriansoporte.properties
-💬 Demo de ConversaciónUsuarioBot (Hapkido IHA Store)Hola"Hola, bienvenido. ¿Cuál es tu nombre?"Adrián"Encantado Adrián, ¿en qué puedo ayudarte?"Ver productos"Tenemos: Dobok Master, Guantes ProFight y Nunchakus."Guantes"Los guantes ProFight cuestan 36€ y son de alta resistencia."🚀 Próximos Pasos y MejorasPara evolucionar este prototipo hacia un producto comercial, se plantean las siguientes líneas de desarrollo:[ ] 📦 Módulo E-commerce: Integración de un sistema de pedidos real y carrito de compra.[ ] 🗄️ Persistencia de datos: Conexión con bases de datos externas (MySQL/MongoDB) para stock en tiempo real.[ ] 🌐 Interfaz Web: Creación de un frontend personalizado con HTML, CSS y JS consumiendo la API de Pandorabots.[ ] 🌍 Soporte Multilingüe: Implementación de traducciones dinámicas para atender a clientes internacionales.👨‍💻 AutorAdrián Pavón Alcón Desarrollador del proyectoEste bot es el resultado de mi primer contacto con la tecnología AIML 2.0, desarrollado como una práctica académica enfocada en la estructuración de lógica conversacional y gestión de atención al cliente automatizada.
+💬 Demo de conversación
+Usuario	Bot (Hapkido IHA Store)
+Hola	Hola, bienvenido. ¿Cuál es tu nombre?
+Adrián	Encantado Adrián, ¿en qué puedo ayudarte?
+Ver productos	Tenemos: Dobok Master, Guantes ProFight y Nunchakus.
+Guantes	Los guantes ProFight cuestan 36€ y son de alta resistencia.
+🚀 Próximos pasos y mejoras
+Para evolucionar este prototipo hacia un producto comercial, se plantean las siguientes líneas de desarrollo:
+
+📦 Módulo E-commerce: Integración de un sistema de pedidos real y carrito de compra.
+
+🗄️ Persistencia de datos: Conexión con bases de datos externas (MySQL/MongoDB) para stock en tiempo real.
+
+🌐 Interfaz Web: Creación de un frontend personalizado con HTML, CSS y JS consumiendo la API de Pandorabots.
+
+🌍 Soporte Multilingüe: Implementación de traducciones dinámicas para atender a clientes internacionales.
+
+👨‍💻 Autor
+Adrián Pavón Alcón
+Desarrollador del proyecto.
+
+Este bot es el resultado de mi primer contacto con la tecnología AIML 2.0, desarrollado como una práctica académica enfocada en la estructuración de lógica conversacional y la gestión de atención al cliente automatizada.
