@@ -53,7 +53,6 @@ El sistema utiliza la sintaxis estándar de **AIML 2.0**. Un ejemplo de su lógi
     <pattern>HOLA</pattern>
     <template>Hola, bienvenido a Hapkido IHA Store.</template>
 </category>
-
 📂 Estructura del ProyectoBashpavonadriansoporte/
 ├── 📂 aiml/
 │   ├── saludos.aiml       # Bienvenida y captura del nombre
@@ -71,30 +70,4 @@ El sistema utiliza la sintaxis estándar de **AIML 2.0**. Un ejemplo de su lógi
 │   ├── person.substitution
 │   └── gender.substitution
 └── pavonadriansoporte.properties
----
-💬 Demo de ConversaciónUsuarioBot (Hapkido IHA Store)
-Hola"Hola, bienvenido. ¿Cuál es tu nombre?"Adrián"
-Encantado Adrián, ¿en qué puedo ayudarte?"Ver productos"
-Tenemos: Dobok Master, Guantes ProFight y Nunchakus."Guantes"
-Los guantes ProFight cuestan 36€ y son de alta resistencia.
----
----
-
-## 🚀 Próximos Pasos y Mejoras
-
-Para evolucionar este prototipo hacia un producto comercial, se plantean las siguientes líneas de desarrollo:
-
-- [ ] **📦 Módulo E-commerce:** Integración de un sistema de pedidos real y carrito de compra.
-- [ ] **🗄️ Persistencia de datos:** Conexión con bases de datos externas (MySQL/MongoDB) para stock en tiempo real.
-- [ ] **🌐 Interfaz Web:** Creación de un *frontend* personalizado con HTML, CSS y JS consumiendo la API de Pandorabots.
-- [ ] **🌍 Soporte Multilingüe:** Implementación de traducciones dinámicas para atender a clientes internacionales.
-
----
-
-## 👨‍💻 Autor
-
-**Adrián Pavón Alcón** *Desarrollador del proyecto*
-
-Este bot es el resultado de mi **primer contacto con la tecnología AIML 2.0**, desarrollado como una práctica académica enfocada en la estructuración de lógica conversacional y gestión de atención al cliente automatizada.
-
----
+💬 Demo de ConversaciónUsuarioBot (Hapkido IHA Store)Hola"Hola, bienvenido. ¿Cuál es tu nombre?"Adrián"Encantado Adrián, ¿en qué puedo ayudarte?"Ver productos"Tenemos: Dobok Master, Guantes ProFight y Nunchakus."Guantes"Los guantes ProFight cuestan 36€ y son de alta resistencia."🚀 Próximos Pasos y MejorasPara evolucionar este prototipo hacia un producto comercial, se plantean las siguientes líneas de desarrollo:[ ] 📦 Módulo E-commerce: Integración de un sistema de pedidos real y carrito de compra.[ ] 🗄️ Persistencia de datos: Conexión con bases de datos externas (MySQL/MongoDB) para stock en tiempo real.[ ] 🌐 Interfaz Web: Creación de un frontend personalizado con HTML, CSS y JS consumiendo la API de Pandorabots.[ ] 🌍 Soporte Multilingüe: Implementación de traducciones dinámicas para atender a clientes internacionales.👨‍💻 AutorAdrián Pavón Alcón Desarrollador del proyectoEste bot es el resultado de mi primer contacto con la tecnología AIML 2.0, desarrollado como una práctica académica enfocada en la estructuración de lógica conversacional y gestión de atención al cliente automatizada.
