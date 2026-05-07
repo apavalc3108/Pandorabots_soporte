@@ -78,14 +78,23 @@ Encantado Adrián, ¿en qué puedo ayudarte?"Ver productos"
 Tenemos: Dobok Master, Guantes ProFight y Nunchakus."Guantes"
 Los guantes ProFight cuestan 36€ y son de alta resistencia.
 ---
-
-###💡 Próximos Pasos y Mejoras
-[ ] E-commerce: Integrar un sistema de pedidos real.
-[ ] Persistencia: Conexión a base de datos externa.
-[ ] Frontend: Crear una interfaz web con HTML/CSS personalizada.
-[ ] Multilingüe: Traducción dinámica a otros idiomas.👨‍💻 
 ---
 
-##👨‍💻 Autor
-Adrián Pavón Alcón
-Primer proyecto en Pandorabots, desarrollado como práctica de clase acotada para comprender los fundamentos de AIML 2.0.
+## 🚀 Próximos Pasos y Mejoras
+
+Para evolucionar este prototipo hacia un producto comercial, se plantean las siguientes líneas de desarrollo:
+
+- [ ] **📦 Módulo E-commerce:** Integración de un sistema de pedidos real y carrito de compra.
+- [ ] **🗄️ Persistencia de datos:** Conexión con bases de datos externas (MySQL/MongoDB) para stock en tiempo real.
+- [ ] **🌐 Interfaz Web:** Creación de un *frontend* personalizado con HTML, CSS y JS consumiendo la API de Pandorabots.
+- [ ] **🌍 Soporte Multilingüe:** Implementación de traducciones dinámicas para atender a clientes internacionales.
+
+---
+
+## 👨‍💻 Autor
+
+**Adrián Pavón Alcón** *Desarrollador del proyecto*
+
+Este bot es el resultado de mi **primer contacto con la tecnología AIML 2.0**, desarrollado como una práctica académica enfocada en la estructuración de lógica conversacional y gestión de atención al cliente automatizada.
+
+---
